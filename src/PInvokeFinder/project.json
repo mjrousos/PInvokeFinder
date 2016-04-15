@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "compilationOptions": {
+        "allowUnsafe": true
+      },
+      "dependencies": {
+        "Microsoft.NETCore.App": "1.0.0-rc2-23931",
+        "System.Reflection.Metadata": "1.3.0-rc2-23931",
+        "System.Runtime.Loader": "4.0.0-rc2-23931"
+      },
+      "imports": [ "dnxcore50" ]
+    }
+  },
+  "runtimes": {
+    "win10-x64": { },
+    "osx.10.10-x64": { },
+    "ubuntu.14.04-x64": { }
+  }
+}
