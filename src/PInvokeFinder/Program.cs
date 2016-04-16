@@ -38,7 +38,7 @@ namespace PInvokeFinder
             }
         }
 
-        private unsafe static void AnalyzePath(string path)
+        private static void AnalyzePath(string path)
         {
             try
             {
